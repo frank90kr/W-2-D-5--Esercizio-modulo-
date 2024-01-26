@@ -1,0 +1,135 @@
+/* Your styles here */
+body {
+  background-color: #e9edee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  width: 96%;
+  margin-inline: auto;
+}
+/* LOGO+NAV */
+.bg-logo {
+  background-color: #222f3f;
+  padding: 0.5rem;
+  padding-left: 2rem;
+}
+.w-logo {
+  width: 8rem;
+}
+nav {
+  background-color: #364759;
+  padding: 0.5rem;
+  padding-left: 2rem;
+}
+.a-nav {
+  display: inline-block;
+  padding-right: 1rem;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* HERO */
+.box1-hero {
+  background-color: #f56600;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 2rem 0;
+}
+h1 {
+  vertical-align: middle;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.be {
+  font-size: medium;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+.box2-hero {
+  background-image: url(../images/bg-image.png);
+  background-size: 100%;
+  text-align: center;
+  padding: 4rem;
+  color: white;
+}
+
+/* PRODOTTI */
+
+h2 {
+  font-weight: 500;
+  display: inline-block;
+  padding-left: 2.5rem;
+  margin-top: 1rem;
+}
+.label-products {
+  background-color: white;
+  margin-top: 2rem;
+}
+
+.label-products a {
+  color: #185b6d;
+  padding-left: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: small;
+}
+.products-image {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.products-image img {
+  display: inline-block;
+  max-width: 22%;
+  height: 22rem;
+  margin-inline: auto;
+  padding: 0.8rem;
+  border-radius: 40px;
+  object-fit: cover;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.036);
+}
+
+/* GAME/SOUND */
+.label-game {
+  margin-top: -1rem;
+}
+.game {
+  text-align: center;
+}
+.game img {
+  max-width: 100%;
+  margin-top: 2rem;
+}
+.game a {
+  color: #185b6d;
+  text-decoration: none;
+  padding-left: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size: small;
+}
+
+/* BACK */
+.back {
+  background-color: #364759;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.back a {
+  color: white;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  background-color: #222f3f;
+  padding: 4rem;
+}
+.logo-footer {
+  width: 10rem;
+}
